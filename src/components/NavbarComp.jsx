@@ -1,7 +1,7 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Row, Col, Form } from "react-bootstrap";
 import logo from "../../public/secshop-logo.png";
-import "../dist/css/Navbar.css";
+import "../distStyle/css/Navbar.css";
 
 // import { navLinks } from "../data/products";
 

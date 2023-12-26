@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import "../dist/css/Header.css";
+import "../distStyle/css/Header.css";
 import head_rightImg from "../../public/holding-phone.png";
 
 const Header = () => {

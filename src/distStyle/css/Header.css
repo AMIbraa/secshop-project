@@ -1,0 +1,28 @@
+.head_left .head_subtle {
+  background: #ffeede;
+  color: var(--navbar-color);
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+.head_title {
+  font-size: 50px;
+}
+
+.head_text {
+  color: var(--clr-slate500);
+}
+
+.secshop {
+  color: var(--navbar-color);
+}
+
+.head_right .img_container {
+  width: 600px;
+}
+
+.img_container .head_rightImg {
+  width: 100%;
+  object-fit: cover;
+}

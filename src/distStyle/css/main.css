@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #ecfdf5;
+  --secondary-color: #059669;
+  --color-text: ;
+  --navbar-color: #f97316;
+  --navbar-color-text: #000000;
+
+  --clr-slate500: #64748b;
+  --clr-slate600: #64748b;
+  --clr-slate700: #334155;
+  --clr-slate800: #1e293b;
+  --clr-slate900: #0f172a;
+  --clr-slate950: #020617;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  background-color: var(--navbar-color);
+  color: #f1f5f9;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(234, 88, 12, 0.5),
+    0 6px 6px rgba(234, 88, 12, 0.5), 0 0 100px -10px var(--navbar-color);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  color: #f1f5f9;
+  background-color: var(--navbar-color);
+  box-shadow: 0 14px 28px rgba(234, 88, 12, 0.25),
+    0 10px 10px rgba(234, 88, 12, 0.22), 0 0 120px -10px var(--navbar-color);
+}

@@ -4,10 +4,10 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./dist/css/main.css";
-import "./dist/css/Navbar.css";
-import "./dist/css/Carousel.css";
-import "./dist/css/Card.css";
+import "./distStyle/css/main.css";
+import "./distStyle/css/Navbar.css";
+import "./distStyle/css/Carousel.css";
+import "./distStyle/css/Card.css";
 
 // buat off canvas buat menu store
 
