@@ -10,7 +10,7 @@ const Footer = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2023 Copyright:
-        <a className="text-white" href="https://SecShop.com/">
+        <a className="text-white" href="https://secshop-project.vercel.app/">
           SecShop.com
         </a>
       </div>

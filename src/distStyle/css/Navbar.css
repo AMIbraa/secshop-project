@@ -1,3 +1,13 @@
+/* .navbar__link,
+li {
+  color: var(--clr-slate500);
+  text-decoration: none;
+} */
+
+.navbar__link:hover {
+  color: var(--clr-slate800);
+}
+
 .logo_container {
   width: 14rem;
 }

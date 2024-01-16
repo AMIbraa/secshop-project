@@ -1,36 +1,20 @@
+/* eslint-disable react/prop-types */ // Ini buat props.image
 import { Card } from "react-bootstrap";
-import { Col, Container, Row } from "react-bootstrap";
-import sm from "../../public/samsungs23.jpg";
-import smfe from "../../public/smfe.jpg";
-import ip14 from "../../public/iphone14.jpg";
-import ip15 from "../../public/iphone15.jpg";
 
-const CardComp = () => {
+const CardComp = (props) => {
   return (
-    <div className="card_container mt-5">
-      <Container>
-        <Row>
-          <Col md={4}>
-            <div className="box">
-              <div className="boxContainer d-flex">
-                <div className="">
-                  <Card>
-                    <img src={sm} alt="Samsung S23" className="card_img" />
-                    <Card.Body>
-                      <Card.Title>Samsung Galaxy S23</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the cards content.
-                      </Card.Text>
-                      <button className="card_button btn">Details</button>
-                    </Card.Body>
-                  </Card>
-                </div>
-              </div>
-            </div>
-          </Col>
+    <Card>
+      <Card.Img variant="top" src={props.image} />
+      <Card.Body>
+        <Card.Title>{props.name}</Card.Title>
+        <Card.Text>{props.text}</Card.Text>
+        <button className="card_button btn">Details</button>
+      </Card.Body>
+    </Card>
+  );
+};
 
-          <Col md={4}>
+/* <Col md={4}>
             <div className="box">
               <div className="boxContainer d-flex">
                 <div className="">
@@ -69,25 +53,6 @@ const CardComp = () => {
             </div>
           </Col>
         </Row>
-      </Container>
-
-      <div className="promo_container">
-        <Card className="text-center card_promo mt-5">
-          <Card.Header>Special Promo</Card.Header>
-          <Card.Img variant="top" src={smfe} />
-          <Card.Body>
-            <Card.Title>Cashback</Card.Title>
-            <Card.Text>
-              Extra Cashback up to 1 mio on certain products <br />
-              *Terms & Conditions apply
-            </Card.Text>
-            <button className="card_button btn">Go somewhere</button>
-          </Card.Body>
-          <Card.Footer className="text-muted">2 days ago</Card.Footer>
-        </Card>
-      </div>
-    </div>
-  );
-};
+      </Container> */
 
 export default CardComp;

@@ -1,11 +1,14 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Row, Col, Form } from "react-bootstrap";
+// import { Link } from "react-router-dom";
 import logo from "../../public/secshop-logo.png";
 import "../distStyle/css/Navbar.css";
 
-// import { navLinks } from "../data/products";
+import { NavLink } from "react-router-dom";
+import { navLinks } from "../data/index";
 
 const NavbarComp = () => {
+  // const navigate = useNavigate();
   return (
     <div>
       <Navbar>
@@ -20,9 +23,20 @@ const NavbarComp = () => {
             <Row>
               <Col xs="auto">
                 <Nav className="me-auto">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#categories">Categories</Nav.Link>
-                  <Nav.Link href="#catalogue">Catalogue</Nav.Link>
+                  {navLinks.map((link) => {
+                    return (
+                      <div className="nav-link" key={link.id}>
+                        <NavLink
+                          to={link.path}
+                          //className={([isActive, isPending]) =>
+                          //isPending ? "pending" : isActive ? "active" : ""
+                          //}
+                        >
+                          {link.text}
+                        </NavLink>
+                      </div>
+                    );
+                  })}
                 </Nav>
               </Col>
               <Col xs="auto">
