@@ -1,11 +1,29 @@
-/* .navbar__link,
-li {
-  color: var(--clr-slate500);
-  text-decoration: none;
-} */
+.navbar {
+  width: 100%;
+  position: fixed;
+}
 
-.navbar__link:hover {
-  color: var(--clr-slate800);
+.nav-link a {
+  width: 60px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  color: var(--clr-slate900);
+}
+
+.navbar-button {
+  margin: right;
+}
+
+.nav-link a:hover {
+  color: var(--primary-color);
+}
+
+.nav-link:hover {
+  border-radius: 8px;
+  transition: 0.7s;
+  background-color: var(--navbar-color);
 }
 
 .logo_container {

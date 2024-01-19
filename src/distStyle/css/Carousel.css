@@ -1,8 +1,0 @@
-/* .carousel { buat manggil variable nya carousel
-  width: 100px;
-} */
-
-h3 {
-  background-color: var(--secondary-color);
-  border-radius: 20px;
-}

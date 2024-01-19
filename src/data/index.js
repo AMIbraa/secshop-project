@@ -1,12 +1,12 @@
-import PhoneImage1 from "../assets/react.svg";
-import PhoneImage2 from "../assets/react.svg";
-import PhoneImage3 from "../assets/react.svg";
-import PhoneImage4 from "../assets/react.svg";
-import PhoneImage5 from "../assets/react.svg";
-import PhoneImage6 from "../assets/react.svg";
-import PhoneImage7 from "../assets/react.svg";
-import PhoneImage8 from "../assets/react.svg";
-import PhoneImage9 from "../assets/react.svg";
+import PhoneImage1 from "../../public/phone/galaxy-s23-ultra.jpg";
+import PhoneImage2 from "../../public/phone/galaxy-s23-fe.jpg";
+import PhoneImage3 from "../../public/phone/galaxy-a54.jpg";
+import PhoneImage4 from "../../public/phone/mi-13t-pro.png";
+import PhoneImage5 from "../../public/phone/redmagic-8s-pro.png";
+import PhoneImage6 from "../../public/phone/iphone-14.jpg";
+import PhoneImage7 from "../../public/phone/iphone-15.jpg";
+import PhoneImage8 from "../../public/phone/iphone-14-promax.jpg";
+import PhoneImage9 from "../../public/phone/iphone-15-promax.jpg";
 
 // import People1 from "../assets/img/testimonial/people-1.jpg";
 // import People2 from "../assets/img/testimonial/people-2.jpg";
